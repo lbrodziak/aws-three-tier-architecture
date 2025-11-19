@@ -32,7 +32,7 @@ I chose to do this project today because I wanted to learn about three-tier arch
 ## Presentation tier
 
 For the presentation tier, I will set up an S3 bucket that will store files needed for the website to work. Next I will setup Cloudfront CDN to host the website stored on S3.
-
+Detailed description of this part can be founde [here](https://github.com/lbrodziak/aws-devops-cloudfront)
 I accessed my delivered website by using the Distribution domain name link.
 
 ![Image](http://learn.nextwork.org/surprised_maroon_fierce_chinese_gooseberry/uploads/aws-compute-threetier_3a4b5c6d)
