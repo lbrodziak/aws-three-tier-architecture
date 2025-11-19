@@ -64,7 +64,7 @@ Every item in your table must have a unique partition key.
 
 ## Logic and Data tier
 
-Once all three layers of my three-tier architecture are set up, the next step is to integrate them so that they work together to fetch the user data and present it on the web page
+Once all three layers of my three-tier architecture are set up, the next step is to [integrate them](https://github.com/lbrodziak/aws-devops-api-and-lambda) so that they work together to fetch the user data and present it on the web page
 
 To test my API, I went to invoke URL of the API and added  /users?userId=1/ As a result I saw DynamoDb data returned in JSON format
 
