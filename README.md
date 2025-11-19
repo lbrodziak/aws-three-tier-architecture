@@ -42,7 +42,7 @@ I accessed my delivered website by using the Distribution domain name link.
 
 ## Logic tier
 
-For the logic tier, I will set up the logic tier consisting of Lambda funtion and API Gateway.
+For the logic tier, I will [set up the logic tier](https://github.com/lbrodziak/aws-devops-api-and-lambda) consisting of Lambda funtion and API Gateway.
 
 The Lambda function retrieves data by utilizing functions from Dynmo DB SDK.
 
@@ -52,7 +52,7 @@ The Lambda function retrieves data by utilizing functions from Dynmo DB SDK.
 
 ## Data tier
 
-For the data tier, I will set up the Dynamo DB table to store user data to be fetched by Lambda function
+For the data tier, I will [set up the Dynamo DB](https://github.com/lbrodziak/aws-devops-dynamo-db) table to store user data to be fetched by Lambda function
 
 A partition key is the heart of how DynamoDB organizes data. Think of it as a label that you can use to group similar items. Under the hood, the partition key is how DynamoDB spreads out your data across different servers for quick access and efficient querying.
 
@@ -64,7 +64,7 @@ Every item in your table must have a unique partition key.
 
 ## Logic and Data tier
 
-Once all three layers of my three-tier architecture are set up, the next step is to [integrate them](https://github.com/lbrodziak/aws-devops-api-and-lambda) so that they work together to fetch the user data and present it on the web page
+Once all three layers of my three-tier architecture are set up, the next step is to integrate them so that they work together to fetch the user data and present it on the web page
 
 To test my API, I went to invoke URL of the API and added  /users?userId=1/ As a result I saw DynamoDb data returned in JSON format
 
